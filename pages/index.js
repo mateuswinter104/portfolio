@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -21,7 +20,7 @@ export default function Home() {
             <div className={styles.description}>
               Olá visitante, me chamo Mateus Winter e sou um <span>Desenvolvedor Web!</span>
               <br />
-              Tenho conhecimento nas linguagens <span>HTML, CSS, JS, PHP, JAVA e MySQL.</span> Trabalhei em uma empresa de desenvolvimento, onde criei um site de loja virtual e fiz diversas manutenções em outros sites e aplicativos em geral. Não poderia deixar de falar que também sou apaixonado pela criação de sites e aplicações pensados a partir da <span>UX e UI Design Thinking.</span>
+              Tenho conhecimento nas linguagens <span>HTML, CSS, JS, PHP, JAVA e MySQL.</span> Não poderia deixar de falar que também sou apaixonado pela criação de sites e aplicações pensados a partir da <span>UX e UI Design Thinking.</span>
               <br />
               Eai, vamos embarcar nessa jornada juntos?
             <br />
@@ -64,9 +63,6 @@ export default function Home() {
               <a href="" target="_blank">
                 <p>Podcastr</p>
               </a>
-              <div className={styles.whatIsIt}>
-                <i>#oqueepodcast?</i>
-              </div>
               <h5>Site desenvolvido para a reprodução de Podcasts criados pelo cliente</h5>
             </div>
           </div>
