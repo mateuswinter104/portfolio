@@ -23,7 +23,7 @@ export default function Home() {
               Tenho conhecimento nas linguagens <span>HTML, CSS, JS, PHP, JAVA e MySQL.</span> Não poderia deixar de falar que também sou apaixonado pela criação de sites e aplicações pensados a partir da <span>UX e UI Design Thinking.</span>
               <br />
               Eai, vamos embarcar nessa jornada juntos?
-            <br />
+              <br />
               <div className={styles.button}>
                 <a href="https://api.whatsapp.com/send?phone=5551981327066&text=Que%20bom%20te%20ver%20por%20aqui!%20Agora%2C%20clique%20em%20%22Iniciar%20Conversa%22%20e%20ser%C3%A1%20redirecionado%20ao%20seu%20Whatsapp!" target="_blank"><p>Entrar em Contato</p></a>
               </div>
