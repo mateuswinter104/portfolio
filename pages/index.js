@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.illustration}>
-              <img src="/hello.svg" alt="Hello" />
+              <img src="hello.svg" alt="Seja muito bem-vindo(a)"></img>
             </div>
           </div>
         </div>
@@ -40,7 +41,12 @@ export default function Home() {
           <div className={styles.jobs}>
             <a href="https://wgdesignagency.netlify.app/" target="_blank">
               <div className={styles.job}>
-                <img src="/agency.svg" />
+                <Image
+                  src="/agency.svg"
+                  alt="Acesse a Desing Agency"
+                  width={600}
+                  height={600}
+                />
               </div>
             </a>
             <div className={styles.card}>
@@ -55,7 +61,12 @@ export default function Home() {
           <div className={styles.jobs}>
             <a href="" target="_blank">
               <div className={styles.job}>
-                <img src="/podcast.svg" />
+                <Image
+                  src="/podcast.svg"
+                  alt="Acesse o Podcastr"
+                  width={600}
+                  height={600}
+                />
               </div>
             </a>
             <div className={styles.card}>
@@ -76,13 +87,32 @@ export default function Home() {
 
         <div className={styles.icons}>
           <a href="https://api.whatsapp.com/send?phone=5551981327066&text=Que%20bom%20te%20ver%20por%20aqui!%20Agora%2C%20clique%20em%20%22Iniciar%20Conversa%22%20e%20ser%C3%A1%20redirecionado%20ao%20seu%20Whatsapp!" target="_blank">
-            <img id="socialMedias" src="whatsapp.svg" alt="Entrar em contato" />
+            <Image
+              id="socialMedias"
+              src="/whatsapp.svg"
+              alt="Acesse meu Whatsapp"
+              width={100}
+              height={100}
+            />
           </a>
           <a href="https://www.linkedin.com/in/mateus-winter-da-silva-0591a418b/" target="_blank">
-            <img id="socialMedias" src="linkedin.svg" alt="Me siga no Linkedin" />
+            <Image
+              id="socialMedias"
+              src="/linkedin.svg"
+              alt="Acesse meu Linkedin"
+              width={100}
+              height={100}
+            />
           </a>
           <a href="https://www.instagram.com/mateuswinter_/" target="_blank">
-            <img id="socialMedias" src="instagram.svg" alt="Me siga no Instagram" />
+            <Image
+              id="socialMedias"
+              src="/instagram.svg"
+              alt="Acesse meu Instagram"
+              width={100}
+              height={100}
+            />
+
           </a>
         </div>
       </footer>
