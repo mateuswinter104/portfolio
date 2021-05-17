@@ -26,7 +26,7 @@ export default function Home() {
               Eai, vamos embarcar nessa jornada juntos?
               <br />
               <div className={styles.button}>
-                <a href="https://api.whatsapp.com/send?phone=5551981327066&text=Que%20bom%20te%20ver%20por%20aqui!%20Agora%2C%20clique%20em%20%22Iniciar%20Conversa%22%20e%20ser%C3%A1%20redirecionado%20ao%20seu%20Whatsapp!" target="_blank"><p>Entrar em Contato</p></a>
+                <a href="https://api.whatsapp.com/send?phone=5551981327066" target="_blank"><p>Entrar em Contato</p></a>
               </div>
             </div>
             <div className={styles.illustration}>
@@ -55,26 +55,6 @@ export default function Home() {
                 <p>Design Agency</p>
               </a>
               <h5>Site desenvolvido para o reconhecimento do trabalho de uma empresa, loja ou próprio cliente</h5>
-            </div>
-          </div>
-
-          <div className={styles.jobs}>
-            <a href="" target="_blank">
-              <div className={styles.job}>
-                <Image
-                  src="/podcast.svg"
-                  alt="Acesse o Podcastr"
-                  width={600}
-                  height={600}
-                />
-              </div>
-            </a>
-            <div className={styles.card}>
-              <h4>← Clique abaixo ou no card ao lado para abrir o site</h4>
-              <a href="" target="_blank">
-                <p>Podcastr</p>
-              </a>
-              <h5>Site desenvolvido para a reprodução de Podcasts criados pelo cliente</h5>
             </div>
           </div>
         </div>
