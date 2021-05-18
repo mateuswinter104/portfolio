@@ -291,6 +291,15 @@
 
               font-size: 1.1rem;
               font-weight: 500;
+ 
+              &:hover {
+                background: none; 
+
+                p {
+                  color: var(--purple);
+                }
+                
+              }
             }
           }
         }
@@ -326,7 +335,11 @@
           img {
             width: 80%;
             height: 80%;
-            transition: 0.35s;
+
+              &:hover {
+                width: 80%;
+                height: 80%;
+              }
           }
         }
       
