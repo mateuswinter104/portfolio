@@ -66,7 +66,7 @@ export default function Home() {
         </div>
 
         <div className={styles.icons}>
-          <a href="https://api.whatsapp.com/send?phone=5551981327066&text=Que%20bom%20te%20ver%20por%20aqui!%20Agora%2C%20clique%20em%20%22Iniciar%20Conversa%22%20e%20ser%C3%A1%20redirecionado%20ao%20seu%20Whatsapp!" target="_blank">
+          <a href="https://api.whatsapp.com/send?phone=5551981327066&text=Ol%C3%A1%2C%20tudo%20bom%3F%20Entrei%20em%20contato%20atrav%C3%A9s%20do%20portf%C3%B3lio%2C%20vamos%20conversar%20mais%20sobre%3F" target="_blank">
             <Image
               id="socialMedias"
               src="/whatsapp.svg"
