@@ -21,7 +21,7 @@ export default function Home() {
             <div className={styles.description}>
               Olá visitante, me chamo Mateus Winter e sou um <span>Desenvolvedor Web!</span>
               <br />
-              Tenho conhecimento nas linguagens <span>HTML, CSS, JS, PHP, JAVA e MySQL.</span> Não poderia deixar de falar que também sou apaixonado pela criação de sites e aplicações pensados a partir da <span>UX e UI Design Thinking.</span>
+              Tenho conhecimento nas linguagens <span>HTML, CSS, JS, PHP, JAVA e SQL.</span> Não poderia deixar de falar que também sou apaixonado pela criação de sites e aplicações pensados a partir da <span>UX e UI Design Thinking.</span>
               <br />
               Eai, vamos embarcar nessa jornada juntos?
               <br />
