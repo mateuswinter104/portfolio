@@ -39,7 +39,7 @@ export default function Home() {
           <h1 className={styles.sub1}>Conheça um pouco mais do meu trabalho!</h1>
 
           <div className={styles.jobs}>
-            <a href="https://wgdesignagency.netlify.app/" target="_blank">
+            <a href="https://designagency.vercel.app/" target="_blank">
               <div className={styles.job}>
                 <Image
                   src="/agency.svg"
