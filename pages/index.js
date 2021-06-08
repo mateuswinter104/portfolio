@@ -54,9 +54,33 @@ export default function Home() {
               <a href="https://wgdesignagency.netlify.app/" target="_blank">
                 <p>Design Agency</p>
               </a>
-              <h5>Site desenvolvido para o reconhecimento do trabalho de uma empresa, loja ou próprio cliente</h5>
+              <h3>Site Ilustrativo</h3>
+              <h5>Aplicação Web desenvolvida para o reconhecimento do trabalho de uma empresa, loja ou próprio cliente</h5>
             </div>
           </div>
+
+          <div className={styles.jobs}>
+            <a href="https://designagency.vercel.app/" target="_blank">
+              <div className={styles.job}>
+                <Image
+                  src="/discord.svg"
+                  alt="Acesse o clone do aplicativo Discord"
+                  width={600}
+                  height={600}
+                />
+              </div>
+            </a>
+            <div className={styles.card}>
+              <h4>← Clique abaixo ou no card ao lado para abrir o site</h4>
+              <a href="https://wgdesignagency.netlify.app/" target="_blank">
+                <p>Discord Clone</p>
+              </a>
+              <h3>Site Ilustrativo</h3>
+              <h5>Aplicação Web desenvolvida para a comunicação entre usuários por chamadas de áudio e/ou vídeo</h5>
+            </div>
+          </div>
+
+
         </div>
       </main>
 

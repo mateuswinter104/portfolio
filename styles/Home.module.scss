@@ -122,8 +122,8 @@
       margin-top: 5rem;
 
       .job{
-        width: 24rem;
-        height: 27rem;
+        width: 384px;
+        height: 432px;
         background-color: #333;
         border-radius: 0.6rem;
   
@@ -149,7 +149,7 @@
       }
   
       .card {
-        width: 30rem;
+        width: 480px;
 
           h4 {
             font-size: 1rem;
@@ -181,6 +181,13 @@
           color: #444;
           font-weight: 400;
         }
+
+        h3 {
+          color: var(--green);
+          font-size: 16px;
+          font-weight: 400;
+          margin-bottom: -10px;        
+          }
       }
     }
   }
@@ -329,8 +336,14 @@
         margin-top: 0 !important;
   
         .job{
-          width: 21rem !important;
-          height: 23rem !important;
+
+          @media (max-width: 350px){
+            width: 300px !important;
+            height: 350px !important;
+          }
+          
+          width: 336px !important;
+          height: 368px !important;
 
           img {
             width: 80%;
@@ -365,7 +378,11 @@
           font-weight: 500 !important;
           
           margin-top: 1.5rem !important;
-        }
+          }
+
+          h3 {
+          font-size: 12px;
+          }
       }
     }
     
@@ -400,6 +417,29 @@
         font-weight: 700;
       }
     }
+  }
+  @media (max-width: 350px){
+    .footer {
+      font-size: 12px;
+      .icons {
+
+        a {
+          margin-left: 2px;
+        }
+
+        img {
+          width: 14px;
+          height: 14px;
+          opacity: 0.8;
+    
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+      
+    }
+    
   }
 }
 }
