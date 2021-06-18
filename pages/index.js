@@ -73,10 +73,31 @@ export default function Home() {
             <div className={styles.card}>
               <h4>← Clique abaixo ou no card ao lado para abrir o site</h4>
               <a href="https://wgdesignagency.netlify.app/" target="_blank">
-                <p>Discord Clone</p>
+                <p>Discord Interface Clone</p>
               </a>
               <h3>Site Ilustrativo</h3>
               <h5>Aplicação Web desenvolvida para a comunicação entre usuários por chamadas de áudio e/ou vídeo</h5>
+            </div>
+          </div>
+
+          <div className={styles.jobs}>
+            <a href="https://designagency.vercel.app/" target="_blank">
+              <div className={styles.job}>
+                <Image
+                  src="/twitter.svg"
+                  alt="Acesse o clone do Twitter"
+                  width={600}
+                  height={600}
+                />
+              </div>
+            </a>
+            <div className={styles.card}>
+              <h4>← Clique abaixo ou no card ao lado para abrir o site</h4>
+              <a href="https://wgdesignagency.netlify.app/" target="_blank">
+                <p>Twitter Interface Clone</p>
+              </a>
+              <h3>Site Ilustrativo</h3>
+              <h5>Aplicação Web desenvolvida para a comunicação entre usuários | Rede Social</h5>
             </div>
           </div>
 
