@@ -60,7 +60,7 @@ export default function Home() {
           </div>
 
           <div className={styles.jobs}>
-            <a href="https://designagency.vercel.app/" target="_blank">
+            <a href="https://discord-clone-six.vercel.app/" target="_blank">
               <div className={styles.job}>
                 <Image
                   src="/discord.svg"
@@ -72,7 +72,7 @@ export default function Home() {
             </a>
             <div className={styles.card}>
               <h4>← Clique abaixo ou no card ao lado para abrir o site</h4>
-              <a href="https://wgdesignagency.netlify.app/" target="_blank">
+              <a href="https://discord-clone-six.vercel.app/" target="_blank">
                 <p>Discord Interface Clone</p>
               </a>
               <h3>Site Ilustrativo</h3>
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
 
           <div className={styles.jobs}>
-            <a href="https://designagency.vercel.app/" target="_blank">
+            <a href="https://twitter-clone-winter.vercel.app/" target="_blank">
               <div className={styles.job}>
                 <Image
                   src="/twitter.svg"
@@ -93,7 +93,7 @@ export default function Home() {
             </a>
             <div className={styles.card}>
               <h4>← Clique abaixo ou no card ao lado para abrir o site</h4>
-              <a href="https://wgdesignagency.netlify.app/" target="_blank">
+              <a href="https://twitter-clone-winter.vercel.app/" target="_blank">
                 <p>Twitter Interface Clone</p>
               </a>
               <h3>Site Ilustrativo</h3>
