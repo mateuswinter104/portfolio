@@ -139,6 +139,16 @@ export default function Home() {
             />
 
           </a>
+          <a href="https://github.com/mateuswinter104" target="_blank">
+            <Image
+              id="socialMedias"
+              src="/github.png"
+              alt="Acesse meu Github"
+              width={110}
+              height={110}
+            />
+
+          </a>
         </div>
       </footer>
     </div>
